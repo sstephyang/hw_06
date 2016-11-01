@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+</head>
+
+<body>
+   <style>
+        .showRange {
+            background: gold;
+            padding: 20px 20px;
+            border: 6px dotted yellow;
+        }
+        
+        .row div {
+            border: 1px solid red;
+        }
+    </style>
+    <div class="container">
+
+        <div class="showRange row">
+            <div class="row">
+                <div class="col-xs-6">.col-md-6</div>
+                <div class="col-xs-6">.col-md-6</div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+   
+
+        <div class="showRange row">
+            <div class="row">
+                <div class="col-xs-6 col-md-4">.col-md-6 .col-md-4</div>
+                <div class="col-xs-6 col-md-4">.col-md-6 .col-md-4</div>
+                <div class="col-xs-6 col-md-4">.col-md-6 .col-md-4</div>
+            </div>
+
+        </div>
+
+   
+
+   
+
+        <div class="showRange row">
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-8">.col-md-12 .col-md-6 .col-md-8</div>
+                <div class="col-xs-12 col-sm-6 col-md-2">.col-md-12 .col-md-6 .col-md-2</div>
+                <div class="col-xs-12 col-sm-6 col-md-2">.col-md-12 .col-md-6 .col-md-2</div>
+            </div>
+
+        </div>
+
+ 
+
+    <br>
+    <hr>
+    <br>
+
+    <style>
+        .row div {
+            border: 6px solid orange;
+            height: 80px;
+            background: gold;
+        }
+    </style>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">col-md-4</div>
+            <div class="col-md-4 col-md-offset-4">col-md-4 col-md-offset-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">col-md-4 col-md-offset-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">col-md-4</div>
+            <div class="col-md-4 col-md-offset-4">col-md-4 col-md-offset-4</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">col-md-4 col-md-offset-4</div>
+        </div>
+
+    </div>
+
+    <br>
+    <hr>
+
+
+    <div class="container">
+        <h2>註冊表單</h2>
+        <br>
+
+        <form>
+            <div class="form-group">
+
+                <label>姓名</label>
+                <input type="text" class="form-control" placeholder="Your Name" name="yourname">
+
+            </div>
+            <div class="form-group">
+                <div>
+                    <label class="radio">性別</label>
+                </div>
+            </div>
+
+            <div>
+                <label>
+                    <input type="radio" name="gender" value="male">男
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="female">女
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="other">其他
+                </label>
+            </div>
+            <div class="form-group">
+
+                <label>電子郵件</label>
+                <input type="email" placeholder="Your Email" name="email" class="form-control">
+
+            </div>
+            <div class="form-group">
+
+                <label>密碼</label>
+                <input type="password" placeholder="Your Password" name="pass" class="form-control">
+
+            </div>
+            <div>
+                <label>興趣</label>
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" name="interest" value="read">閱讀
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interest" value="sport">運動
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interest" value="sleep">睡覺
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interest" value="web">學網頁
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-success">送出</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
